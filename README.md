@@ -1,3 +1,7 @@
+# Install globally
+    - npm install -g typescript
+    - tsc -v
+
 # What Is TypeScript?
 
     - TypeScript is an open source language and is a superset of JavaScript
@@ -47,3 +51,4 @@
 
     - tsc [filename]
     - tsc --watch [filename]
+    - tsc - w 

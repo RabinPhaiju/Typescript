@@ -1,31 +1,3 @@
-// Basic Types
-let id: number = 5
-let company:string = 'Rabs'
-let isPublished:boolean = true
-let x: any = 'Hello'
-
-let  ids: number[] = [1,2,3,4,5] // Array only contains numbers
-let arr:any[] = [1,true,'hello',null]
-
-// Tuple
-let person: [number,string,boolean] = [1,'Rabin',true] // type at that exact spot and order
-
-// Tuple Array
-let employee: [number,string][] = [[1,'Rbain'],[2,'Nepal']]
-
-// Union
-let p_id: string | number = 22
-p_id = '22'
-
-// Enum
-enum Direction1 {
-    Up,// =1 // if want to start from 1 # or assing a string to all elements eg: Up='Up' \n Down='Down'
-    Down,
-    Letf,
-    Right
-}
-console.log('printing direction up: ',Direction1.Up)
-
 // Object
 const user:{
     id:number,
