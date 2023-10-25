@@ -22,3 +22,11 @@ function productViews1(arg) {
         ? true
         : (typeof arg === 'number' && arg > 0);
 }
+function arrayOrItem(elements) {
+    if (Array.isArray(elements)) {
+        return elements[0];
+    }
+    else {
+        return elements;
+    }
+}
