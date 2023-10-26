@@ -12,3 +12,9 @@ let nestedArr: Array<Array<number>> = [
 
 let mixedArr: Array<string | number> = [1,'ts'];
 
+// 1. -- can add number in list of strings. strict. to match js packages.
+const productArray1 : Array<string> = ['name','price','sales','category'];
+const mixedproductArray1 : Array<string | number> = productArray1;
+mixedproductArray1.push(3);
+
+console.log(mixedproductArray1);
