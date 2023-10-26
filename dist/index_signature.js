@@ -17,3 +17,7 @@ let course11 = {
     ts: { name: 'ts', price: 12 },
     js: { name: 'js', price: 12 }
 };
+const product16 = {
+    ts: 12,
+    js: 12
+};
